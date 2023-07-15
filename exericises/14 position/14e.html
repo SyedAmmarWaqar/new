@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        position: fixed;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .actual-image{
+        width: 45px;
+        border-radius: 30px;
+    }
+    .name{
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+    .buttons{
+        display: flex;
+        margin-left: 400px;
+        column-gap: 10px
+    }
+    .af{
+        background-color: rgb(73, 126, 224);
+        color: white;
+        height: 33px;
+        border-radius: 8px;
+        border-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .msg{
+        height: 33px;
+        border-radius: 5px;
+        border-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .upper-half{
+        background-color: lightblue;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 200px;
+    }
+    .bottom-half{
+        position: fixed;
+        background-color: lightpink;
+        top: 600px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+    }
+
+</style>
+<body style="margin-bottom: 2000px;">
+    <div class="upper-half">
+        upper-half
+    </div>
+    <div class="bottom-half">
+        bottom-half
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="image-container">
+                <img class="actual-image" src="ammar.jpg" alt="">
+            </div> 
+            <div class="name">
+                Oliver Car
+            </div>
+            <div class="buttons">
+                <button class="af">
+                    Add Friend
+                </button>
+                <button class="msg">
+                    Message
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

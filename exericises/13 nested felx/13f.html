@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            width: 300px;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .all-stuff{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        }
+        .image-container{
+            align-items: center;
+            object-fit: cover;
+
+        }
+        .img{
+            width: 100px;
+            border-radius: 15px;
+            margin-top: 5px;
+        }
+        .website{
+            font-family: Airal;
+            margin-bottom: 5px;
+            font-size: 15px;
+            margin-left: 10px;
+            margin-top: 20px;
+            color: rgb(155, 155, 155);
+        }
+        .title{
+            padding-left: 10px;
+        }
+    </style>
+    <div class="container">
+        <div class="all-stuff">
+        <div class="image-container">
+            <img class="img" src="waleed.jpg" alt="">
+        </div>
+        <div class="video-info-column">
+            <div class="website">
+                youtube.com
+            </div>
+            <div class="title">
+                Backend web development - a complete overview (2021)
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
